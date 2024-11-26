@@ -1,0 +1,1 @@
+instance_change(objGuilleAttack4, false);

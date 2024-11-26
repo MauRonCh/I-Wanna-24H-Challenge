@@ -1,0 +1,1 @@
+instance_create_depth(704, 80, depth - 1, objGuilleAttack2)

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgmGuilleS3_2",
+  "audioGroupId":{
+    "name":"audiogroup_BGM",
+    "path":"audiogroups/audiogroup_BGM",
+  },
+  "bitDepth":1,
+  "bitRate":192,
+  "compression":2,
+  "conversionMode":0,
+  "duration":203.20653,
+  "name":"bgmGuilleS3_2",
+  "parent":{
+    "name":"Guille",
+    "path":"folders/Sounds/BGM/Guille.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgmGuilleS3_2.ogg",
+  "type":1,
+  "volume":1.0,
+}

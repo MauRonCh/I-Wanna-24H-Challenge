@@ -1,0 +1,1 @@
+objGuilleAttack2.speed = 0;

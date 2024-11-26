@@ -1,0 +1,2 @@
+instance_destroy(objGuilleAttack1);
+instance_destroy(objGuilleAttack3);

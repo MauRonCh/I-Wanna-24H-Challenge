@@ -23,6 +23,35 @@ function get_music() {
 			case rOptions:
 			    music = bgmGuyRock;
 			    break;
+			case rGuilleS1:
+			case rGuilleS1_2:
+			case rGuilleS1_3:			
+				music = bgmGuilleS1;
+				break;
+			case rGuilleS2:
+			case rGuilleS2_2:
+				music = bgmGuilleS2;
+				break;
+			case rGuilleS3:
+				music = bgmGuilleS3;
+				break;
+			case rGuilleS3_2:
+				music = bgmGuilleS3_2;
+				break;
+			case rGuilleS4:
+			case rGuilleS4_2:
+			case rGuilleS4_3:
+			case rGuilleS4_4:
+				music = bgmGuilleS4;
+				break;
+			case rGuilleBoss:
+				music = bgmGuilleBoss;
+				break;
+			case rGuilleTransition1:		
+			case rGuilleTransition2:
+			case rGuilleBossPrev:
+				music = bgmGuilleTransition;
+				break;				
 		}
 	} else {
 		with (objPlayMusic) {

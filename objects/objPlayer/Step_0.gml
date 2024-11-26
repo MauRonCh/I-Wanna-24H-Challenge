@@ -342,7 +342,7 @@ if (!global.forms.lunarkid) {
 			vine_mod.count++;
 			
 			if (vine_mod.fire && vine_mod.count % 3 == 1) {
-				instance_create_depth(x, y, depth - 1, objFireVinePart);
+				instance_create_depth(x, y, depth - 1,, objFireVinePart);
 			}
 			
 			if (vine_mod.lowgrav && vine_mod.count % 10 == 1) {

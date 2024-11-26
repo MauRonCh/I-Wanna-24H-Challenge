@@ -124,7 +124,34 @@ function spike_sprite(me = true) {
 			spike_speed = 1;
 			spike_image = 0;
 			break;
-		
+		case rGuilleS1:
+		case rGuilleS1_2:
+		case rGuilleS1_3:
+			type = "GS1";
+			spike_speed = 1;
+			spike_image = 0;
+			break;
+		case rGuilleS2:
+		case rGuilleS2_2:
+			type = "GS2";
+			spike_speed = 1;
+			spike_image = 0;
+			break;
+		case rGuilleS3:
+		case rGuilleS3_2:
+			type = "GS3";
+			spike_speed = 1;
+			spike_image = 0;
+			break;
+		case rGuilleS4:
+		case rGuilleS4_2:
+		case rGuilleS4_3:
+		case rGuilleS4_4:
+			type = "GS4";
+			spike_speed = 1;
+			spike_image = 0;
+			break;
+			
 		default: //Always keep this at the bottom
 			type = "";
 			spike_speed = 1;

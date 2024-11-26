@@ -1,0 +1,1 @@
+if (room == rGuilleS2_2) instance_destroy(other);
