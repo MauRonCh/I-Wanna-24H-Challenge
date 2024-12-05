@@ -1,0 +1,1 @@
+global.auto_save = true;

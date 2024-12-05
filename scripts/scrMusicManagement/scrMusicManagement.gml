@@ -23,6 +23,7 @@ function get_music() {
 			case rOptions:
 			    music = bgmGuyRock;
 			    break;
+			#region Guille Area
 			case rGuilleS1:
 			case rGuilleS1_2:
 			case rGuilleS1_3:			
@@ -51,7 +52,22 @@ function get_music() {
 			case rGuilleTransition2:
 			case rGuilleBossPrev:
 				music = bgmGuilleTransition;
-				break;				
+				break;
+			#endregion
+			#region Mauri Area
+			case rMauri1:
+			case rMauri2:
+			case rMauri3:
+			case rMauri4:
+			case rMauri5:
+			case rMauri6:
+			case rMauri7:
+				music = bgmMauriStage;
+				break;
+			case rMauriPenalty:
+				music = bgmMauriPenal;
+				break;
+			#endregion
 		}
 	} else {
 		with (objPlayMusic) {

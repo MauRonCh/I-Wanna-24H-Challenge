@@ -1,6 +1,6 @@
 if (other.jump_total != jumps) {
-	var sound = (other.jump_total > jumps) ? sndLoseStar : sndGainStar;
-	audio_play_sound(sound, 0, false);
+	//var sound = (other.jump_total > jumps) ? sndLoseStar : sndGainStar;
+	//audio_play_sound(sound, 0, false);
 
     if (jumps = 0) { 
 		other.jump_left = 0; 
