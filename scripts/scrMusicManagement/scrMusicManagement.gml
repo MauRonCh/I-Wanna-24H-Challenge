@@ -68,6 +68,11 @@ function get_music() {
 				music = bgmMauriPenal;
 				break;
 			#endregion
+			#region King Area
+			case rKingStage:
+				music = bgmKingStage;
+				break;
+			#endregion
 		}
 	} else {
 		with (objPlayMusic) {

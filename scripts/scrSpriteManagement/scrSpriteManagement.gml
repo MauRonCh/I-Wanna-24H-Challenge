@@ -151,6 +151,11 @@ function spike_sprite(me = true) {
 			spike_speed = 1;
 			spike_image = 0;
 			break;
+		case rKingStage:
+			type = "King";
+			spike_speed = 1;
+			spike_image = 0;
+			break;
 			
 		default: //Always keep this at the bottom
 			type = "";
@@ -208,15 +213,11 @@ function fruit_sprite(me = true) {
 	
 	#region Set the type
 	switch(room) {
-		/* EXAMPLE USAGE //
-		case rSampleRoom:
-			type = "White";
-			fruit_speed = 1;
+		case rKingStage:
+			type = "King";
+			fruit_speed = 0;
 			fruit_image = 0;
-			break;
-		*//////////////////
-		
-		
+			break;	
 		
 		default: //Always keep this at the bottom
 			type = "";

@@ -6,6 +6,7 @@ global.controls = {
 	down: vk_down,
 	jump: vk_shift,
 	shoot: ord("Z"),
+	misc: ord("X"),
 	restart: ord("R"),
 	pause: ord("P"),
 	suicide: ord("Q")

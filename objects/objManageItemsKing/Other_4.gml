@@ -1,0 +1,1 @@
+global.time_stopped = false;

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprItemSecret8",
-    "path":"sprites/sprItemSecret8/sprItemSecret8.yy",
+    "name":"sprIconBootsKing",
+    "path":"sprites/sprIconBootsKing/sprIconBootsKing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprItemSecret1",
-    "path":"sprites/sprItemSecret1/sprItemSecret1.yy",
+    "name":"sprIconClockKing",
+    "path":"sprites/sprIconClockKing/sprIconClockKing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

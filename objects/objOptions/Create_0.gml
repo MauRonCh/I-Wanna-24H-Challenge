@@ -102,6 +102,7 @@ options = [
 		"Down",
 		"Jump",
 		"Shoot",
+		"Misc",
 		"Restart",
 		"Pause",
 		

@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprItemSecret3",
-    "path":"sprites/sprItemSecret3/sprItemSecret3.yy",
+    "name":"sprIconBulletKing",
+    "path":"sprites/sprIconBulletKing/sprIconBulletKing.yy",
   },
   "spriteMaskId":null,
   "visible":true,
