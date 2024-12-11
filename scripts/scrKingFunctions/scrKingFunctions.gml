@@ -11,7 +11,7 @@ function frozen_player() {
 			image_speed: 0,
 			sprite_index: sprite_index,
 			image_index: image_index,
-			image_xscale: image_xscale,
+			image_xscale: xscale,
 			image_yscale: image_yscale
 		})
 	    instance_destroy();

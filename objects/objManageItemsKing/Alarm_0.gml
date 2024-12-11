@@ -20,9 +20,6 @@ if (objBackgroundLetterKing.yspeed > 0) {
 	with (objSpikeDownGKing) {
 		alarm[0] = 1;
 	}
-    with (objTileNormalKing) {
-		image_speed = 0;
-	}
     
     global.time_stopped = true;
 } else {
@@ -43,10 +40,6 @@ if (objBackgroundLetterKing.yspeed > 0) {
 	with (objSpikeDownGKing) {
 		alarm[1] = 1;
 	}
-    with (objTileNormalKing) {
-		image_speed = 1;
-		alarm[0] = 0;
-	}
     
-    global.time_stopped = false
+    global.time_stopped = false;
 };

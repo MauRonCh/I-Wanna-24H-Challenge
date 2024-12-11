@@ -1,1 +1,1 @@
-activate_trigger("test1auto");
+global.auto_save = true;

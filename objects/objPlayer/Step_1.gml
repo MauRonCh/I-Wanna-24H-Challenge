@@ -1,0 +1,1 @@
+if (room == rKingStage) skin = "King";

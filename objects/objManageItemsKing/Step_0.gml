@@ -50,3 +50,4 @@ instance_activate_object(objWorld);
 instance_activate_object(objBackgroundKing);
 instance_activate_object(objGameOver);
 instance_activate_object(objTriggerController);
+//instance_activate_object(objTileNormalKing);

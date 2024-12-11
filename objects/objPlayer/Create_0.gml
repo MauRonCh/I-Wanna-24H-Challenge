@@ -61,6 +61,21 @@ skins = {
 		"Dotkid": sprPlayerDotkid,
 		"Lunarkid": sprPlayerLunarkid,
 		"Linekid": sprPlayerLinekid
+	},
+	"King": {
+		"Idle": sprPlayerIdleKing,
+		"Run": sprPlayerRunKing,
+		"Jump": sprPlayerJumpKing,
+		"Fall": sprPlayerFallKing,
+		"Slide": sprPlayerSlide,
+		
+		"Climb": sprPlayerClimb,
+		"Climb_Horizontal": sprPlayerClimbHorizontal,
+		"Climb_Vertical": sprPlayerClimbVertical,
+		
+		"Dotkid": sprPlayerDotkid,
+		"Lunarkid": sprPlayerLunarkid,
+		"Linekid": sprPlayerLinekid
 	}
 };
 skin = "Normal";

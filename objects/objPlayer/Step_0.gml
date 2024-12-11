@@ -368,6 +368,7 @@ if (!global.forms.lunarkid) {
 if (!frozen || on_auto) {
 	if (is_pressed(global.controls.shoot) && !global.controls_lock.shoot) {
 		player_shoot();
+		if (global.items.secrets[2] && global.select == 2) frozen_player();
 	}
 	
 	if (is_pressed(global.controls.suicide) && !global.controls_lock.suicide) {

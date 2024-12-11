@@ -64,15 +64,15 @@ function reset_jumps() {
 }
 
 function player_shoot() {
-	var bullet_max = (global.slowshot) ? 10 : 4;
-	var bullet_object = (global.forms.telekid) ? objTelekid : objBullet;
+	var bullet_max = (global.items.secrets[2] && global.select == 2) ? 1 : 4;
+	var bullet_object = (global.items.secrets[2] && global.select == 2) ? objBulletKing : objBullet;
 	var shoot_sound = (global.forms.telekid) ? sndTelekid : sndShoot;
 	
 	if (global.forms.telekid) {
 		bullet_max = 1;
 	}
 
-	if (instance_number(objBullet) < bullet_max) {
+	if (instance_number(objBullet) < bullet_max || instance_number(objBulletKing) < bullet_max) {
 		instance_create_layer(x, y, "Player", bullet_object);
 		audio_play_sound(shoot_sound, 0, false);
 	}

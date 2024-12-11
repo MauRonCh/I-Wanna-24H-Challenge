@@ -17,3 +17,5 @@ if (event_trigger != null) {
 }
 
 image_index = 1;
+
+instance_destroy(other);
