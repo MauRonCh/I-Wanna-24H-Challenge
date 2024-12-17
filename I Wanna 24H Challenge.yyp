@@ -724,6 +724,7 @@
     {"id":{"name":"sprBoosterRefreshDown","path":"sprites/sprBoosterRefreshDown/sprBoosterRefreshDown.yy",},},
     {"id":{"name":"sprBoosterRefreshUp","path":"sprites/sprBoosterRefreshUp/sprBoosterRefreshUp.yy",},},
     {"id":{"name":"sprBoosterUp","path":"sprites/sprBoosterUp/sprBoosterUp.yy",},},
+    {"id":{"name":"sprBootsParticleKing","path":"sprites/sprBootsParticleKing/sprBootsParticleKing.yy",},},
     {"id":{"name":"sprBow","path":"sprites/sprBow/sprBow.yy",},},
     {"id":{"name":"sprBubble","path":"sprites/sprBubble/sprBubble.yy",},},
     {"id":{"name":"sprBubbleWater","path":"sprites/sprBubbleWater/sprBubbleWater.yy",},},

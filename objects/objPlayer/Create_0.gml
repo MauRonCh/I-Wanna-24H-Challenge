@@ -91,3 +91,6 @@ hit = 0;
 hit_x = x;
 hit_y = y;
 #endregion
+
+can_hover = true;
+hovering = false;

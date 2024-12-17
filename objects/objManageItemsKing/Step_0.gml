@@ -2,15 +2,15 @@ if (instance_exists(objPlayer) || instance_exists(objPlayerFrozenKing)) {
     if (selected) {
         if (is_pressed(global.controls.left)) {
             if (global.select > 0) {
-                global.select--
+                global.select--;
             }
-        };
+        }
         
         if (is_pressed(global.controls.right)) {
-            if (global.select < items - 1) {
-                global.select++
+            if (global.select < array_length(items) - 1) {
+                global.select++;
             }
-        };
+        }
         
         if (is_pressed(global.controls.misc)) {
             selected = false;
@@ -26,14 +26,12 @@ if (instance_exists(objPlayer) || instance_exists(objPlayerFrozenKing)) {
                     selected = true;
                     frozen_player();
                 }
-            };
+            }
             
-            if (global.select = 0) {
-				if (is_pressed(global.controls.up)) {
-                    if (instance_exists(objPlayer)) {
-                        audio_play_sound(sndStoppedTime, 0, false);
-                        alarm[0] = 1;
-                    }
+            if (global.select == 0 && is_pressed(global.controls.up)) {
+                if (instance_exists(objPlayer)) {
+                    audio_play_sound(sndStoppedTime, 0, false);
+                    alarm[0] = 1;
                 }
             }
         }

@@ -1,6 +1,7 @@
 #region Variable and Input Checks
 var grav_factor = (place_meeting(x, y, objAntiGravField)) ? -1 : 1;
 grav = (vine_mod.stick) ? 0 : (grav_amount * grav_factor) * sign(global.grav);
+
 gravity_direction = (abs(global.grav) == 1) ? 270 : 0;
 
 var directions = control_gravity(
@@ -158,8 +159,7 @@ if (!global.forms.lunarkid) {
 		if (dir_right || dir_left) {
 			dir = (dir_right) ? 1 : -1; 
 		}
-	}
-	
+	}	
 	#region Collision Checks
 	var x_off = (global.forms.linekid) ? 2 : 1;
 	
@@ -174,7 +174,6 @@ if (!global.forms.lunarkid) {
 		on_conveyor = p_instance_place(0, sign(global.grav), objElevator);
 		on_elevator = (p_instance_place(-xscale * x_off, 0, objConveyor) ?? p_instance_place(0, 0, objConveyorWater));
 	}
-	
 	#endregion
 	
 	#region Vine Checks
@@ -278,6 +277,7 @@ if (!global.forms.lunarkid) {
 		if (p_instance_place(0, -Vspd * sign(global.grav), objBlock) == null) {
 			if (Vspd * sign(global.grav) <= 0) {
 				player_sprite("Jump");
+				alarm[0] = 0;
 			} else if (Vspd * sign(global.grav) > 0) {
 				player_sprite("Fall");
 			}
@@ -374,6 +374,32 @@ if (!frozen || on_auto) {
 	if (is_pressed(global.controls.suicide) && !global.controls_lock.suicide) {
 		kill_player();
 	}
+}
+#endregion
+
+#region 24H King Area
+print([can_hover, hovering, Vspd, grav]);
+
+if (room == rKingStage && global.items.secrets[1] && global.select == 1 && can_hover && !hovering && Vspd == 0) {
+	hovering = true;
+	alarm[0] = seconds_to_frames(1.5);
+}
+	
+if (Vspd != 0) {
+	can_hover = false;
+	hovering = false;
+	alarm[0] = 0;
+}
+
+if (hovering) {
+	p_vspd(0);
+	grav = 0;
+}
+
+if (on_block) {
+	can_hover = true;
+	hovering = false;
+	alarm[0] = 0;
 }
 #endregion
 

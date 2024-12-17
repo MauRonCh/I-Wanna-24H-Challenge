@@ -58,6 +58,12 @@ if (global.forms.dotkid && global.dotkid_hint) {
 }
 #endregion
 
+#region 24H King Area
+if (can_hover && hovering) {
+	draw_sprite(sprBootsParticleKing, 0, x, y + 8);
+}
+#endregion
+
 #region Debug
 if (global.debug_hitbox > 0) {
 	draw_sprite_ext(mask_index, image_index, x, y, image_xscale, image_yscale, image_angle, c_fuchsia, 0.5 * global.debug_hitbox);
