@@ -1,1 +1,1 @@
-visible = instance_exists(objBulletKing);
+visible = (show_bullet && instance_exists(objBulletKing));

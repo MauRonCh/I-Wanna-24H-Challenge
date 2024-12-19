@@ -14,13 +14,10 @@ if (instance_exists(objPlayer) || instance_exists(objPlayerFrozenKing)) {
         
         if (is_pressed(global.controls.misc)) {
             selected = false;
-            with (objPlayerFrozenKing) {
-                instance_create_layer(x, y, layer, objPlayer);
-                instance_destroy();
-            }
+			unfrozen_player();
         }
     } else {
-        if (global.items.secrets[0]) {
+        if (global.items.secrets[0] || global.items.secrets[1] || global.items.secrets[2]) {
 			if (is_pressed(global.controls.misc)) {
                 if (instance_exists(objPlayer)) {
                     selected = true;
@@ -29,11 +26,8 @@ if (instance_exists(objPlayer) || instance_exists(objPlayerFrozenKing)) {
             }
             
             if (global.select == 0 && is_pressed(global.controls.up)) {
-                if (instance_exists(objPlayer)) {
-                    audio_play_sound(sndStoppedTime, 0, false);
-                    alarm[0] = 1;
-                }
-            }
+                time_stop();
+			}
         }
     }
 };

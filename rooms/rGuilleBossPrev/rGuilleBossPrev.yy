@@ -69,8 +69,8 @@
   ],
   "name":"rGuilleBossPrev",
   "parent":{
-    "name":"Guille Area",
-    "path":"folders/Rooms/Guille Area.yy",
+    "name":"Guille",
+    "path":"folders/Rooms/Game/Guille.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

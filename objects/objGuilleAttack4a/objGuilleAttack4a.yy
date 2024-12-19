@@ -10,8 +10,8 @@
   "name":"objGuilleAttack4a",
   "overriddenProperties":[],
   "parent":{
-    "name":"Guille (Boss)",
-    "path":"folders/Objects/Game/Guille (Boss).yy",
+    "name":"Guille",
+    "path":"folders/Objects/Game/Guille.yy",
   },
   "parentObjectId":null,
   "persistent":false,

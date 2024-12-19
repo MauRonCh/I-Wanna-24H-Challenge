@@ -369,7 +369,7 @@
   "name":"rGuilleS1_2",
   "parent":{
     "name":"Stage1",
-    "path":"folders/Rooms/Guille Area/Stage1.yy",
+    "path":"folders/Rooms/Game/Guille/Stage1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

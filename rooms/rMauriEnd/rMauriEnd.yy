@@ -81,8 +81,8 @@
   ],
   "name":"rMauriEnd",
   "parent":{
-    "name":"Mauri Area",
-    "path":"folders/Rooms/Mauri Area.yy",
+    "name":"Mauri",
+    "path":"folders/Rooms/Game/Mauri.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

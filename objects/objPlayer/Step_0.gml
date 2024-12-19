@@ -368,7 +368,10 @@ if (!global.forms.lunarkid) {
 if (!frozen || on_auto) {
 	if (is_pressed(global.controls.shoot) && !global.controls_lock.shoot) {
 		player_shoot();
-		if (global.items.secrets[2] && global.select == 2) frozen_player();
+		
+		if (room == rKingStage && global.items.secrets[2] && global.select == 2) {
+			frozen_player();
+		}
 	}
 	
 	if (is_pressed(global.controls.suicide) && !global.controls_lock.suicide) {
@@ -378,8 +381,6 @@ if (!frozen || on_auto) {
 #endregion
 
 #region 24H King Area
-print([can_hover, hovering, Vspd, grav]);
-
 if (room == rKingStage && global.items.secrets[1] && global.select == 1 && can_hover && !hovering && Vspd == 0) {
 	hovering = true;
 	alarm[0] = seconds_to_frames(1.5);

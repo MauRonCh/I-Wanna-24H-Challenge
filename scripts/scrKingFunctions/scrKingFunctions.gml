@@ -6,14 +6,28 @@ function outside_view(num) {
 
 function frozen_player() {
 	with (objPlayer) {
-	    frozen = true;
 	    instance_create_layer(x, y, layer, objPlayerFrozenKing, {
 			image_speed: 0,
-			sprite_index: sprite_index,
-			image_index: image_index,
+			sprite_index,
+			image_index,
 			image_xscale: xscale,
-			image_yscale: image_yscale
-		})
+		});
+		
+		with (instance_place(x, y, objSave)) {
+			event_perform(ev_collision, objPlayer);
+		}
+		
 	    instance_destroy();
-	};
+	}
+}
+
+function unfrozen_player() {
+	with (objPlayerFrozenKing) {
+		instance_create_layer(x, y, layer, objPlayer, {
+			sprite_index,
+			image_index
+		});
+		
+	    instance_destroy();
+	}
 }

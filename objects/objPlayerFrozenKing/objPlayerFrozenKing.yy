@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"objPlayerFrozenKing",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"objPlayerFrozenKing",
   "overriddenProperties":[],
@@ -33,6 +31,9 @@
     "name":"sprPlayerFallKing",
     "path":"sprites/sprPlayerFallKing/sprPlayerFallKing.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"sprPlayerMask",
+    "path":"sprites/sprPlayerMask/sprPlayerMask.yy",
+  },
   "visible":true,
 }

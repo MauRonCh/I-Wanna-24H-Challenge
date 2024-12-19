@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scrKingFunctions",
   "parent":{
-    "name":"Misc",
-    "path":"folders/Scripts/Misc.yy",
+    "name":"King",
+    "path":"folders/Scripts/Game/King.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

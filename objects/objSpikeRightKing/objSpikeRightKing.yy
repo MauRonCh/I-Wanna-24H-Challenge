@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objSpikeRightGKing",
+  "%Name":"objSpikeRightKing",
   "eventList":[],
   "managed":true,
-  "name":"objSpikeRightGKing",
+  "name":"objSpikeRightKing",
   "overriddenProperties":[],
   "parent":{
     "name":"King",
     "path":"folders/Objects/Game/King.yy",
   },
   "parentObjectId":{
-    "name":"objSpikeDownGKing",
-    "path":"objects/objSpikeDownGKing/objSpikeDownGKing.yy",
+    "name":"objSpikeDownKing",
+    "path":"objects/objSpikeDownKing/objSpikeDownKing.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

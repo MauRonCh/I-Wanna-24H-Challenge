@@ -7,4 +7,3 @@ if (instance_exists(objPlayer)) {
 	    direction = 180;
 	}
 }
-image_speed = 0;

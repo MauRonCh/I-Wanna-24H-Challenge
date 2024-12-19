@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"objSpikeLeftGKing",
+  "%Name":"objSpikeUpKing",
   "eventList":[],
   "managed":true,
-  "name":"objSpikeLeftGKing",
+  "name":"objSpikeUpKing",
   "overriddenProperties":[],
   "parent":{
     "name":"King",
     "path":"folders/Objects/Game/King.yy",
   },
   "parentObjectId":{
-    "name":"objSpikeDownGKing",
-    "path":"objects/objSpikeDownGKing/objSpikeDownGKing.yy",
+    "name":"objSpikeDownKing",
+    "path":"objects/objSpikeDownKing/objSpikeDownKing.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprSpikeLeftKing",
-    "path":"sprites/sprSpikeLeftKing/sprSpikeLeftKing.yy",
+    "name":"sprSpikeUpKing",
+    "path":"sprites/sprSpikeUpKing/sprSpikeUpKing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

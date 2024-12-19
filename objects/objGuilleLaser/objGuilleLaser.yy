@@ -6,8 +6,8 @@
   "name":"objGuilleLaser",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Killers/Other.yy",
+    "name":"Guille",
+    "path":"folders/Objects/Game/Guille.yy",
   },
   "parentObjectId":{
     "name":"objPlayerKiller",

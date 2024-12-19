@@ -21,7 +21,7 @@ for (var i = 0; i < array_length(items); i++) {
                 color = c_black;
                 outline = false;
                 break;
-        };
+        }
 		
 		var separation = (544 / array_length(items)) * i
 		var x1 = cam.view_x + 175 + separation;
