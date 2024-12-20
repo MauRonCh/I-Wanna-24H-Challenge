@@ -1,1 +1,1 @@
-vspeed = 4
+vspeed = choose(-4, 4);

@@ -1,5 +1,5 @@
 draw_set_font(fntOptions);
-draw_set_color(c_black);
+draw_set_color(c_white);
 
 var option = options[menu];
 var selected = select[menu];
@@ -22,7 +22,7 @@ switch (menu) {
 	            bind = "---";
 	        }
         
-	        draw_text(x, y + spacing * index, $"{curr_option} Button: {bind}");
+	        draw_text(x, y + spacing * index - 12, $"{curr_option} Button: {bind}");
 			index++;
 		}
 		//Skips the "break" to ensure it draws all the subsequent options
@@ -32,7 +32,7 @@ switch (menu) {
 		//Draws all the options
 		for (var i = index; i < length; i++) {
 			var curr_option = option[i];
-			draw_text(x, y + spacing * i, curr_option.label + curr_option.get_value());
+			draw_text(x, y + spacing * i - 12, curr_option.label + curr_option.get_value());
 		}
 		break;
 }

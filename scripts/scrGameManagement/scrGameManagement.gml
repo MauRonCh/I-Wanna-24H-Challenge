@@ -170,6 +170,7 @@ function start_game(diff) {
 function restart_game(position = 1) {
 	if (global.death_music) {
 	    audio_stop_sound(bgmGameOver);
+		audio_stop_sound(bgmGuilleGameOver);
 	    audio_resume_sound(global.current_music);
 	}
 	

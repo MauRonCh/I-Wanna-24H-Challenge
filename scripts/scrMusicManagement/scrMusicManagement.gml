@@ -21,7 +21,8 @@ function get_music() {
 			case rTitle:
 			case rFiles:
 			case rOptions:
-			    music = bgmGuyRock;
+			case rSelectStage:
+			    music = bgmTitle;
 			    break;
 			#region Guille Area
 			case rGuilleS1:

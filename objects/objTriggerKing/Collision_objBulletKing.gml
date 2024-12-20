@@ -8,9 +8,7 @@ for (var i = 0; i < need_keys_length; i++) {
 
 activate_trigger(key);
 
-if (sound != null) {
-	audio_play_sound(sound, 0, sound_loop);
-}
+audio_play_sound(sndTriggerKing, 0, sound_loop);
 
 if (event_trigger != null) {
 	event_trigger();

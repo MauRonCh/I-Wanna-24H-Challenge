@@ -1,1 +1,1 @@
-draw_sprite(sprite_index, 0, display_get_gui_width() / 2, display_get_gui_height() / 2);
+draw_sprite(sprite_index, num, display_get_gui_width() / 2, display_get_gui_height() / 2);

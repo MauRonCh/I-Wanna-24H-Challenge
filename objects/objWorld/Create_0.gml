@@ -125,3 +125,18 @@ function buffer_read_uv(buffer) {
 	}
 }
 #endregion
+
+global.psys = part_system_create();
+part_system_depth(global.psys,-100); //Change the 100 to the depth that you want for your particles
+
+global.warp_parts = part_type_create();
+part_type_shape(global.warp_parts,pt_shape_flare);
+part_type_color3(global.warp_parts,16777215,8454016,16711680);
+part_type_alpha3(global.warp_parts,1.0000,0.5000,0.0000);
+part_type_life(global.warp_parts,70.0000,120.0000);
+part_type_size(global.warp_parts,0.7000,1.0000,-0.0010,-0.0113);
+part_type_speed(global.warp_parts,3.0000,7.0000,-0.0010,0.0000);
+part_type_direction(global.warp_parts,0.0000,360.0000,0.1000,0.0192);
+part_type_orientation(global.warp_parts,0.0000,360.0000,-1.7999,-0.4887,0);
+part_type_gravity(global.warp_parts,0.0000,270.0000);
+part_type_blend(global.warp_parts,true);

@@ -11,5 +11,5 @@ add_trigger_key("keyLaser3", {
 })
 
 add_trigger_key("keyLaser4", {
-	vspeed: 3
+	vspeed: 0
 })

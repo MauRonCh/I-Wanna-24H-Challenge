@@ -64,9 +64,10 @@ function reset_jumps() {
 }
 
 function player_shoot() {
-	var bullet_max = (global.items.secrets[2] && global.select == 2) ? 1 : 4;
-	var bullet_object = (global.items.secrets[2] && global.select == 2) ? objBulletKing : objBullet;
-	var shoot_sound = (global.forms.telekid) ? sndTelekid : sndShoot;
+	var condition = global.items.secrets[2] && global.select == 2 && room == rKingStage;
+	var bullet_max = (condition) ? 1 : 4;
+	var bullet_object = (condition) ? objBulletKing : objBullet;
+	var shoot_sound = (condition) ? sndShootKing : sndShoot;
 	
 	if (global.forms.telekid) {
 		bullet_max = 1;
@@ -118,7 +119,11 @@ function kill_player() {
 			
 			if (global.death_music) {
 	            audio_pause_sound(global.current_music);
-	            audio_play_sound(bgmGameOver, 0, false, 0.5);
+				if (string_count("Guille", room_get_name(room)) >= 1) {
+					audio_play_sound(bgmGuilleGameOver, 0, false, 0.8);
+				} else {
+					audio_play_sound(bgmGameOver, 0, false, 0.5);
+				}
 	        }
 	    } else if (objPlayer.hit == 0) {
 			with (objPlayer) {

@@ -11,8 +11,8 @@
   "name":"objJumpStar",
   "overriddenProperties":[],
   "parent":{
-    "name":"NANG Star",
-    "path":"folders/Objects/Packages/Not Another Needle Game/NANG Star.yy",
+    "name":"Mauri",
+    "path":"folders/Objects/Game/Mauri.yy",
   },
   "parentObjectId":null,
   "persistent":false,
