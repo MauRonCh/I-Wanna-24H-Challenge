@@ -1,0 +1,1 @@
+rect_tri_offset = (rect_tri_offset + rect_tri_height + 1) % rect_tri_height;

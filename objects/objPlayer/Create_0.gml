@@ -62,6 +62,23 @@ skins = {
 		"Lunarkid": sprPlayerLunarkid,
 		"Linekid": sprPlayerLinekid
 	},
+    
+    "Guille": {
+        "Idle": sprPlayerIdleGuille,
+        "Run": sprPlayerRunGuille,
+        "Jump": sprPlayerJumpGuille,
+        "Fall": sprPlayerFallGuille,
+        "Slide": sprPlayerSlide,
+        
+        "Climb": sprPlayerClimb,
+        "Climb_Horizontal": sprPlayerClimbHorizontal,
+        "Climb_Vertical": sprPlayerClimbVertical,
+        
+        "Dotkid": sprPlayerDotkid,
+        "Lunarkid": sprPlayerLunarkid,
+        "Linekid": sprPlayerLinekid
+    },
+    
 	"King": {
 		"Idle": sprPlayerIdleKing,
 		"Run": sprPlayerRunKing,
@@ -78,6 +95,7 @@ skins = {
 		"Linekid": sprPlayerLinekid
 	}
 };
+
 skin = "Normal";
 #endregion
 
