@@ -780,7 +780,7 @@
     {"name":"sprSwitchJumpRefresh","order":7,"path":"sprites/sprSwitchJumpRefresh/sprSwitchJumpRefresh.yy",},
     {"name":"sprSystem","order":1,"path":"sprites/sprSystem/sprSystem.yy",},
     {"name":"sprTileGuilleS4","order":2,"path":"sprites/sprTileGuilleS4/sprTileGuilleS4.yy",},
-    {"name":"sprTitle","order":5,"path":"sprites/sprTitle/sprTitle.yy",},
+    {"name":"sprTitle","order":6,"path":"sprites/sprTitle/sprTitle.yy",},
     {"name":"sprTlsDefault","order":3,"path":"sprites/sprTlsDefault/sprTlsDefault.yy",},
     {"name":"sprTlsGuilleS2and3","order":1,"path":"sprites/sprTlsGuilleS2and3/sprTlsGuilleS2and3.yy",},
     {"name":"sprTriggerButton","order":4,"path":"sprites/sprTriggerButton/sprTriggerButton.yy",},
