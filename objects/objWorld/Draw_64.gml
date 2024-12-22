@@ -24,7 +24,7 @@ if (global.game_paused) {
 
 #region Debug Overlay
 if (global.overlay) {
-    var spacing = 20;
+    var spacing = 30;
     draw_set_font(fntMenu3);
 	draw_set_color(c_white);
 
@@ -90,7 +90,7 @@ if (global.overlay) {
 	}
 		
 	for (var i = 0; i < length; i++) {
-		draw_text_outline(20, 20 + spacing * i, info[i], c_black);
+		draw_text_outline(20, 42 + spacing * i, info[i], c_black);
 	}
 	#endregion
 	
