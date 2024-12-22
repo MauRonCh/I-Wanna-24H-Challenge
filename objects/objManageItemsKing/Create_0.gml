@@ -8,6 +8,7 @@ items = [
 
 texts = [
 	"You don't have any items yet.",
+	"You don't have that item yet.",
 	$"Press {control_bind(global.controls.misc)} to change object.",
 	
 	$"This clock stops time by pressing {control_bind(global.controls.up)}.",
@@ -29,18 +30,6 @@ function time_stop() {
 	
 	    with (objBackgroundKing) {
 			alarm[0] = 0;
-		}
-		
-		with (objSpikeDownKing) {
-			var threshold = 0.05;
-			
-			if (path_position > 0.5 - threshold && path_position < 0.5 + threshold) {
-				path_position = 0.5;
-			}
-			
-			if (path_position > 1 - threshold) {
-				path_position = 1;
-			}
 		}
 	} else {
 		with (objClockParticleKing) {

@@ -63,14 +63,18 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_white);
 
-var current_text = texts[1];
+var current_text = texts[2];
 
 if (!global.items.secrets[0] && !global.items.secrets[1] && !global.items.secrets[2]) {
 	current_text = texts[0];
 }
 
 if (selected) {
-	current_text = texts[2 + global.select];
+	if (global.items.secrets[global.select]) {
+		current_text = texts[3 + global.select];
+	} else {
+		current_text = texts[1];
+	}
 }
 
 draw_text_ext(cam.view_x + 134, cam.view_y + 10, current_text, -1, 544);
